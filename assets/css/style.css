@@ -23,8 +23,14 @@
 
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
+    overflow: hidden;
 
 }
 
@@ -46,10 +52,11 @@ p {
     width: 345px;
     background-color: white;
     text-align: center;
-    padding-top: 15px;
-    border-radius: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
     box-sizing: border-box;
     /* box-shadow: 0 5 0 hsl(218, 44%, 22%); */
+
 
 }
 
@@ -57,7 +64,14 @@ p {
     width: 90%;
     height: 90%;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 10px;
 
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%; /* replace with actual footer height */
+    text-align: center;
+}
