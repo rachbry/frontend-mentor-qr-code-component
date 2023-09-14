@@ -24,10 +24,40 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+
+}
+
+h1 {
     color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 1.75rem;
 }
 
 p {
     font-size: 15px;
-    
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    letter-spacing: 1.75px;
 }
+
+.container {
+    margin: auto;
+    width: 345px;
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    /* box-shadow: 0 5 0 hsl(218, 44%, 22%); */
+
+}
+
+.qr-code {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
